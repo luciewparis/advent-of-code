@@ -1,13 +1,13 @@
 # 1. Start by generating the list of reports
-'''
-with open('advent-2-reports.txt') as f:
+
+with open('advent-2-0-inputs.txt') as f:
     reports = f.read().splitlines()
 
 print(reports) # check the format of reports
 print(len(reports))
-'''
 
-reports = ["7 6 4 2 1", "1 2 7 8 9", "9 7 6 2 1", "1 3 2 4 5", "8 6 4 4 1", "1 3 6 7 9"] # should return 2 
+
+# reports = ["7 6 4 2 1", "1 2 7 8 9", "9 7 6 2 1", "1 3 2 4 5", "8 6 4 4 1", "1 3 6 7 9"] # should return 2 
 
 # 2. Check if the different reports are safe i.e
     # (a) The levels are either all increasing or all decreasing. -> report_status_direction 
