@@ -1,6 +1,6 @@
 # 1. Start by generating the list of reports
 
-with open('advent-2-0-inputs.txt') as f:
+with open('advent-2-0-input.txt') as f:
     reports = f.read().splitlines()
 
 # print(reports) # check the format of reports
