@@ -5,7 +5,10 @@ DAY 2
     Part 1: 230 (safe reports) ✅
     Part 2: 414 NOPE -> 392 ❌ => 282 / 294 (after debugging checkB dampener) ❌ => 301 ✅
 DAY 3
-    Part 1: TODO (uncorrupted instructions)
+    Part 1: 1632870 (uncorrupted instructions) ❌ (too low) => 166357705 ✅
+    Part 2: 89678113 (considering do/don't) ❌ (too high) => 
 DAY 4
     Part 1: 2517 (Xmas occurrences) ✅
     Part 2: 1960 (MAS-MAS occurrences) ✅
+DAY 25
+    Part 1: 3287 unique key/lock pairs ✅
